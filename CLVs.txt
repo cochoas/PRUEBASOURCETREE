@@ -1,0 +1,7 @@
+-- select top 10 * from Servicio.dbo.OrdenServicio  
+--====================================== Sucursales Brinks ======================================
+--1	Santiago		5	Temuco			9	Osorno			13	Calama			18	Arica
+--2	Viña del Mar	6	Puerto Montt	10	Copiapó			14	Los Ángeles		19	Coyhaique
+--3	Talca			7	Rancagua		11	Punta Arenas	16	La Serena		20	San Felipe
+--4	Concepción		8	Iquique			12	Antofagasta		17	Chillan		
+--===============================================================================================
