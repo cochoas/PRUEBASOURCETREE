@@ -70,5 +70,7 @@ SET TRAN ISOLATION LEVEL READ UNCOMMITTED;
 		LEFT JOIN Servicio.[dbo].[Tb_NovedadOrdenServicio] AS nos ON O.Num_OrdenServicio = nos.Num_OrdenServicio
 		LEFT JOIN [SERVICIO].[dbo].[Tb_Novedad] AS nov ON nos.Id_Novedad = Nov.Id_Novedad 
 	WHERE o.FechaServicio >= '20170125' and o.FechaServicio < '20170126'
+	WHERE  kjdsfjsñdjfñds 
+	ñsdkfñdskfñodsjf
 	order by 12 asc
 	
