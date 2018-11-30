@@ -1,28 +1,4 @@
-/****************************************************************************************
-CONSULTA USADA PARA RECUPERAR TODOS LOS PS ACTIVOS, FRECUENCIAS Y HORARIOS USANDO PIVOTE
-*****************************************************************************************/
-USE CIF
-go
 
-DECLARE @Cod_SucursalBrinks INT;
-SET @Cod_SucursalBrinks = 0;
-
-set tran isolation level read uncommitted;
-
-if OBJECT_ID('tempdb..#TMP_Puntos') is not null
-  DROP TABLE #TMP_Puntos;
-
-CREATE TABLE #TMP_Puntos
-(
-	Cod_PuntoServicio INT
-)
-
-if OBJECT_ID('tempdb..#TMP_Frecuencia') is not null
-  DROP TABLE #TMP_Frecuencia;
-
-CREATE TABLE #TMP_Frecuencia
-(
-	Cod_PuntoServicio INT
 	,Id_PuntoServicioTipoOrden INT
 	,Cod_TipoOrdenServicio INT
 	,NomTipoOrdenServicio Varchar(50)
