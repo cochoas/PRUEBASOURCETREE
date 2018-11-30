@@ -11,3 +11,4 @@ where num_hojatransporte in ('B95135727',
 'B95135739',
 'B95135740',
 'B95135741')
+debemos eliminar todos los datos
